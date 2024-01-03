@@ -1,0 +1,49 @@
+{
+    "Description" : {
+        "Id" : "fp_aHouseUnited",
+        "Name" : "A House United",
+        "Details" : "",
+        "Icon" : "uixTxrSpot_ArgoDrive2.png"
+    },
+    "Weight" : 25,
+    "InternalName" : "aHouseUnited",
+    "PublishState" : "UNPUBLISHED",
+    "Difficulty" : 10,
+    "Requirements" : [],
+    "LocationRequirements" : {
+        "Scope" : "StarSystem",
+        "RequirementTags" : {
+            "tagSetSourceFile" : "Tags/PlanetTags",
+            "items" : [
+                "planet_name_mendham",
+                "flashpoint_lastChance_a"
+            ]
+        },
+        "ExclusionTags" : {
+            "tagSetSourceFile" : "",
+            "items" : []
+        },
+        "RequirementComparisons" : []
+    },
+    "PotentialEmployers" : [
+        "HouseNakano"
+    ],
+    "TargetFaction" : "AuriganPirates",
+    "AllowRefitTime" : true,
+    "FlashpointLength" : "SHORT",
+    "Repeatable" : false,
+    "MilestoneSetID" : "ms_fp_aHouseUnited",
+    "UseAvailableTimeoutOverride" : false,
+    "AvailableTimeout" : 2000,
+    "UseInProgressTimeoutOverride" : false,
+    "InProgressTimeout" : 180,
+    "RewardCollectionID" : "itemCollection_Weapons_Liao_uncommon",
+    "UnitDropTonnageHint" : "None",
+    "LanceDropTonnageHint" : "None",
+    "FlashpointShortDescription" : "Commander, you helped me once by reminding me of the value of honor, but that lesson was as costly as I feared. House Nekano is nearly broke and pirates are freely raiding our shipments. If we are to survive we will need assistance from a company that understands our ways. That's you, Commander.",
+    "FlashpointDescriberCastDefId" : "castDef_UW_lastChance_LadyNakanoDefault",
+    "Tags" : {
+        "tagSetSourceFile" : "tags/FlashpointTags",
+        "items" : []
+    }
+}
