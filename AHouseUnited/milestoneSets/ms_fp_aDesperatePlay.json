@@ -1,0 +1,184 @@
+{
+    "StartingMilestoneID" : "ms_fp_aDesperatePlay_001_Start",
+    "Milestones" : [
+        {
+            "Description" : {
+                "Id" : "ms_fp_aDesperatePlay_001_Start",
+                "Name" : "Start",
+                "Details" : "flashpoint",
+                "Icon" : null
+            },
+            "Scope" : "Company",
+            "Requirements" : [],
+            "Results" : [
+                {
+                    "Scope" : "Flashpoint",
+                    "Requirements" : {
+                        "Scope" : "Flashpoint",
+                        "RequirementTags" : {
+                            "tagSetSourceFile" : "",
+                            "items" : []
+                        },
+                        "ExclusionTags" : {
+                            "tagSetSourceFile" : "",
+                            "items" : []
+                        },
+                        "RequirementComparisons" : []
+                    },
+                    "AddedTags" : {
+                        "tagSetSourceFile" : "",
+                        "items" : []
+                    },
+                    "RemovedTags" : {
+                        "tagSetSourceFile" : "",
+                        "items" : [
+                            "fp_choice_a",
+                            "fp_choice_b",
+                            "fp_choice_c",
+                            "fp_choice_cancel"
+                        ]
+                    },
+                    "Stats" : null,
+                    "Actions" : null,
+                    "ForceEvents" : null,
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                },
+                {
+                    "Scope" : "Company",
+                    "Requirements" : {
+                        "Scope" : "Company",
+                        "RequirementTags" : {
+                            "tagSetSourceFile" : "",
+                            "items" : []
+                        },
+                        "ExclusionTags" : {
+                            "tagSetSourceFile" : "",
+                            "items" : []
+                        },
+                        "RequirementComparisons" : []
+                    },
+                    "AddedTags" : {
+                        "tagSetSourceFile" : "",
+                        "items" : []
+                    },
+                    "RemovedTags" : {
+                        "tagSetSourceFile" : "",
+                        "items" : []
+                    },
+                    "Stats" : null,
+                    "Actions" : [
+                        {
+                            "Type" : "Flashpoint_SetNextMilestone",
+                            "value" : "ms_fp_aDesperatePlay_002_AcceptOrCancel",
+                            "valueConstant" : null,
+                            "additionalValues" : null
+                        },
+                        {
+                            "Type" : "Flashpoint_AddContract",
+                            "value" : "mapGeneral_mountainHold_bMoon",
+                            "valueConstant" : null,
+                            "additionalValues" : [
+                                null,
+                                null,
+                                "c_fp_aDesperatePlay_1_escortConvoy",
+                                null,
+                                "AuriganPirates",
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null
+                            ]
+                        },
+                        {
+                            "Type" : "System_ForceDropshipRoom",
+                            "value" : "Contract",
+                            "valueConstant" : null,
+                            "additionalValues" : [
+                                "BaseFlashpoint"
+                            ]
+                        }
+                    ],
+                    "ForceEvents" : null,
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                }
+            ],
+            "Repeatable" : false,
+            "UseRandomInvocation" : false,
+            "InvokeChance" : 0
+        },
+        {
+            "Description" : {
+                "Id" : "ms_fp_aDesperatePlay_100_Start",
+                "Name" : "ms_fp_aDesperatePlay_100_Start",
+                "Details" : "Base Defend",
+                "Icon" : null
+            },
+            "Scope" : "Company",
+            "Requirements" : [],
+            "Results" : [
+                {
+                    "Scope" : "Company",
+                    "Requirements" : {
+                        "Scope" : "Company",
+                        "RequirementTags" : {
+                            "tagSetSourceFile" : "",
+                            "items" : []
+                        },
+                        "ExclusionTags" : {
+                            "tagSetSourceFile" : "",
+                            "items" : []
+                        },
+                        "RequirementComparisons" : []
+                    },
+                    "AddedTags" : {
+                        "tagSetSourceFile" : "",
+                        "items" : []
+                    },
+                    "RemovedTags" : {
+                        "tagSetSourceFile" : "",
+                        "items" : []
+                    },
+                    "Stats" : null,
+                    "Actions" : [
+                        {
+                            "Type" : "Flashpoint_StartContract",
+                            "value" : "mapGeneral_mountainHold_bMoon",
+                            "valueConstant" : null,
+                            "additionalValues" : [
+                                null,
+                                null,
+                                "DefendBase_TitanAttack_Alt",
+                                null,
+                                "AuriganPirates",
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null
+                            ]
+                        },
+                        {
+                            "Type" : "Flashpoint_SetNextMilestone",
+                            "value" : "ms_fp_aDesperatePlay_200_Talk",
+                            "valueConstant" : null,
+                            "additionalValues" : null
+                        }
+                    ],
+                    "ForceEvents" : null,
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                }
+            ],
+            "Repeatable" : false,
+            "UseRandomInvocation" : false,
+            "InvokeChance" : 0
+        }
+    ]
+}
