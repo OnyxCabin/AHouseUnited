@@ -69,13 +69,24 @@
                     "Stats" : null,
                     "Actions" : [
                         {
+                            "Type" : "System_StartConversation",
+                            "value" : null,
+                            "valueConstant" : null,
+                            "additionalValues" : [
+                                "A Desperate Play",
+                                "High Orbit - Mendham",
+                                "Conference",
+                                null
+                            ]
+                        },
+                        {
                             "Type" : "Flashpoint_AddContract",
                             "value" : "mapGeneral_mountainHold_bMoon",
                             "valueConstant" : null,
                             "additionalValues" : [
                                 null,
                                 null,
-                                "c_fp_aDesperatePlay_1_escortConvoy",
+                                "c_fp_aDesperatePlay_1_Stealin",
                                 null,
                                 "AuriganPirates",
                                 null,
@@ -139,6 +150,17 @@
                     },
                     "Stats" : null,
                     "Actions" : [
+                        {
+                            "Type" : "System_StartConversation",
+                            "value" : null,
+                            "valueConstant" : null,
+                            "additionalValues" : [
+                                "A Desperate Play",
+                                "High Orbit - Mendham",
+                                "Conference",
+                                null
+                            ]
+                        },
                         {
                             "Type" : "Flashpoint_StartContract",
                             "value" : "mapGeneral_mountainHold_bMoon",

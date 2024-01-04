@@ -5,7 +5,7 @@
         "Details" : "",
         "Icon" : "uixTxrSpot_ArgoDrive2.png"
     },
-    "Weight" : 25,
+    "Weight" : 16,
     "InternalName" : "aDesperatePlay",
     "PublishState" : "UNPUBLISHED",
     "Difficulty" : 10,
@@ -28,9 +28,9 @@
     "PotentialEmployers" : [
         "HouseNakano"
     ],
-    "TargetFaction" : "AuriganPirates",
+    "TargetFaction" : "AuriganMercenaries",
     "AllowRefitTime" : true,
-    "FlashpointLength" : "SHORT",
+    "FlashpointLength" : "MEDIUM",
     "Repeatable" : false,
     "MilestoneSetID" : "ms_fp_aDesperatePlay",
     "UseAvailableTimeoutOverride" : false,
