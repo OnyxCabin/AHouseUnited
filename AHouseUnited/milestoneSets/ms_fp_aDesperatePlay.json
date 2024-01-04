@@ -32,7 +32,7 @@
                     "RemovedTags" : {
                         "tagSetSourceFile" : "",
                         "items" : [
-                            "fp_choice_a",
+                            "fp_mission_a",
                             "fp_choice_b",
                             "fp_choice_c",
                             "fp_choice_cancel"
@@ -68,12 +68,6 @@
                     },
                     "Stats" : null,
                     "Actions" : [
-                        {
-                            "Type" : "Flashpoint_SetNextMilestone",
-                            "value" : "ms_fp_aDesperatePlay_002_AcceptOrCancel",
-                            "valueConstant" : null,
-                            "additionalValues" : null
-                        },
                         {
                             "Type" : "Flashpoint_AddContract",
                             "value" : "mapGeneral_mountainHold_bMoon",
